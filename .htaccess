@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^member\.remotebisnis\.com$
+RewriteRule ^/?$ "https\:\/\/member\.remotebisnis\.com\/" [R=301,L]
+
